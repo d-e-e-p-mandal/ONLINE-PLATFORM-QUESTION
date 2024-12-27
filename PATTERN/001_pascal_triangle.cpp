@@ -12,7 +12,8 @@ int main(){
         }
         for(int j = 0 ; j<=i; j++){
             int x=(j==0)?1:x*(i-j+1)/j;
-            (x<10)?cout<<x<<"   ":cout<<x<<"  ";
+            cout.width(4);
+            cout<<x;
         }
         cout<<endl;
     }
