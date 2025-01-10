@@ -22,7 +22,7 @@ int main(){
     int *a;
     a=reverse(n); // a pointing that memory which is allocated by rev
     printf("Reverse is : %d\n",*a);
-    //printf("Reverse is : %d\n",*reverse(n)); //both are same
+    //printf("Reverse is : %d\n",*reverse(n)); //both are same, to free memory use a
     free(n);
     free(a);
     return 0;
