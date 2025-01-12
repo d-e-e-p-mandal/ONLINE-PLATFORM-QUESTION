@@ -1,3 +1,4 @@
+//LEET CODE QUESTION 7
 #include<stdio.h>
 int reverse(int x){
     int rev=0,n=x; //copy x in n
