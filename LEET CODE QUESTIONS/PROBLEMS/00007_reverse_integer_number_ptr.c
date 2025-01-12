@@ -1,3 +1,4 @@
+//LEET CODE QUESTION 7
 #include<stdio.h>
 #include<stdlib.h>
 int *reverse(int *x){
