@@ -1,4 +1,4 @@
-//LEET CODE QUESTION 7
+//LEET CODE QUESTION 7 USING ONLY POINTER
 #include<stdio.h>
 #include<stdlib.h>
 int *reverse(int *x){
