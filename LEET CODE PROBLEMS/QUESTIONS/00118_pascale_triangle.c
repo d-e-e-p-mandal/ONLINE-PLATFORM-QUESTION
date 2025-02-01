@@ -34,7 +34,7 @@ int main(){
     for(i=0;i<returnSize;i++){
         for(j=0;j<(returnSize-i);j++)
             printf("   ");
-        for(j=0;j<=i;j++)
+        for(j=0;j<=i;j++)    //for(j=0;j<retunrnColumnSizes[i];j++)
             printf("%3d   ",pattern[i][j]);
         printf("\n");
     }
