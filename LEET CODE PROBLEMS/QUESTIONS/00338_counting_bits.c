@@ -33,9 +33,7 @@ Counting bits up to 10:
 0 1 1 2 1 2 2 3 1 2 2 
 */
 
-
-/*
-METHOD : 2 
+/* METHOD : 2 
 int* countBits(int n, int* returnSize) {
     int i;
     *returnSize = n+1;
