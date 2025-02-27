@@ -1,3 +1,4 @@
+// LEETCODE - 7  REVERSE INTEGER 
 #include<stdio.h>
 int reverse(int x){
     int rev=0,n=x; //copy x in n
@@ -16,3 +17,6 @@ int main(){
     printf("Reverse is : %d\n",reverse(n));
     return 0;
 }
+/*OUTPUT :
+Enter number : 1023
+Reverse is : 3201 */
