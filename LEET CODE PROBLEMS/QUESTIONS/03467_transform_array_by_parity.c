@@ -13,7 +13,6 @@ int* transformArray(int* nums, int numsSize, int* returnSize) {
         else
             arr[x++] = 0;  // Even numbers go to the left
     }
-
     return arr;
 }
 void printArray(int* arr, int size) {
@@ -30,7 +29,7 @@ int main() {
 
     int* result = transformArray(nums, numsSize, &returnSize);
 
-    printArray(result, returnSize); // Output: 0 0 1 1
+    printArray(result, returnSize); //display
 
     free(result); // Free allocated memory
     return 0;
