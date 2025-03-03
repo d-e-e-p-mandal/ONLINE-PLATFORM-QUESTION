@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*(self - my)
+/*(self - my code)
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
     int *arr = (int *)malloc(2*sizeof(int));
     int x=0,y=numbersSize-1;
