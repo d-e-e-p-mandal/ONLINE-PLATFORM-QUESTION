@@ -1,4 +1,4 @@
-// LEETCODE QUESTION 1
+// LEETCODE QUESTION 1 : Two Sum
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
