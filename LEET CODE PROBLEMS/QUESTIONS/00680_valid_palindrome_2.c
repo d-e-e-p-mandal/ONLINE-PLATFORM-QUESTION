@@ -26,7 +26,6 @@ bool validPalindrome(char *s) {
     return true; // It's already a palindrome
 }
 
-// Driver code for testing
 int main() {
     char s[] = "abca";
 
