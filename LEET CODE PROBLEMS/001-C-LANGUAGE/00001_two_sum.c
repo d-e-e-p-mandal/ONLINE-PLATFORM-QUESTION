@@ -17,8 +17,10 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
             }
     }
     *returnSize=0;
+    
     return 0; 
 }
+
 int main(){
     int nums[] = {2, 7, 11, 15};
     int target = 9;
