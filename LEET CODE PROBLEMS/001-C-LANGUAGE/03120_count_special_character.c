@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int numberOfSpecialChars(char word[]) {
+int numberOfSpecialChars(const char word[]) {
     // 2 hashtable create for lower and upper
     int i, countLower[26] = {0}, countUpper[26] = {0},count = 0;
     
@@ -25,3 +25,5 @@ int main() {
     printf("Number of special characters: %d\n", numberOfSpecialChars(word));
     return 0;
 }
+/*OUTPUT : Number of special characters: 3*/
+/*Time complexity : O(N)*/
