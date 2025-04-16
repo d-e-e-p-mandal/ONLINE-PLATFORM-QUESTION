@@ -1,8 +1,8 @@
 // LEETCODE QUESTION 35
 #include<stdio.h>
 
-int searchInsert(int* nums, int numsSize, int target) {
-    //binary search 
+int searchInsert(int* nums, int numsSize, int target) {//binary search 
+    
     int left = 0, right = numsSize - 1, mid;
     while(left <= right) {
         mid = left + (right - left)/2;
@@ -24,6 +24,8 @@ int main(){
     return 0;
 }
 /* Positions : 4 */
+/*Time Complexity : O(LogN)
+Space Comp*/
 
 int searchInsert(int* nums, int numsSize, int target) { //linear search
     int i;
