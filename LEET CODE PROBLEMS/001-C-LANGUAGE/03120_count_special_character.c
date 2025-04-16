@@ -25,5 +25,6 @@ int main() {
     printf("Number of special characters: %d\n", numberOfSpecialChars(word));
     return 0;
 }
+
 /*OUTPUT : Number of special characters: 3*/
 /*Time complexity : O(N)*/
