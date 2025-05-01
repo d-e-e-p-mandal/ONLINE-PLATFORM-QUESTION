@@ -51,3 +51,34 @@ int main() {
 
     return 0;
 }
+/*
+class Solution {
+public:
+    void combSum(vector<int>& candidates, vector<vector<int>>& ans, vector<int>& ds, int target, int index) {
+        if (target == 0) {
+            ans.push_back(ds);
+            return;
+        }
+
+        for (int i = index; i < candidates.size(); ++i) {
+            if (candidates[i] <= target) {
+                ds.push_back(candidates[i]);
+                combSum(candidates, ans, ds, target - candidates[i], i); // reuse allowed
+                ds.pop_back(); // backtrack
+            }
+        }
+    }
+
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>> ans;
+        vector<int> ds;
+        combSum(candidates, ans, ds, target, 0);
+        return ans;
+    }
+};
+*/
+/* OUTPUT : 
+Combinations that sum to 7:
+[2, 2, 3]
+[7]
+*/
