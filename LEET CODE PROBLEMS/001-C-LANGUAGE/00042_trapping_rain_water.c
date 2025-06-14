@@ -1,4 +1,4 @@
-//LEET CODE QUESTION 42
+//LEET CODE QUESTION 42 : Trappiing Rain Water : (better approach)
 #include<stdio.h>
 #include<stdlib.h>
 #define min(a,b) (a<b ?a:b)   //minimum
