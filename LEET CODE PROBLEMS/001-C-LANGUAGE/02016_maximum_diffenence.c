@@ -24,3 +24,7 @@ int main() {
 
     return 0;
 }
+
+/* Output : Maximum Difference: 4 */
+/* Time Complexity : O(N) 
+Space Complexity : O(1)*/
