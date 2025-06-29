@@ -1,4 +1,4 @@
-// Leetcode : 63 : Unique Paths 2 : Dynamic Programming : Tabulation (Buttom-Up) 
+// Leetcode : 63 : Unique Paths 2 : Dynamic Programming : Tabulation (Bottom-Up) 
 #include <iostream>
 #include <vector>
 using namespace std;

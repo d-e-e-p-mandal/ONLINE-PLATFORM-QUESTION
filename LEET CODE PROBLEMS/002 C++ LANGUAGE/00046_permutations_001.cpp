@@ -46,30 +46,6 @@ int main() {
 
     return 0;
 }
-/* more optimise : swap function use
-class Solution {
-    public :
-    void backtrack(vector<int>&nums,vector<vector<int>>&res, int index){
-        if(index == nums.size()){ //base case
-            res.push_back(nums);
-            return;
-        }
-
-        for(int i = index; i<nums.size(); i++){
-            swap(nums[index],nums[i]); //swap
-            backtrack(nums, res, index+1);
-            swap(nums[i],nums[index]); // revese swap
-        }
-    }
-public:
-    vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>>res; // to store answer
-
-        backtrack(nums,res,0);
-
-        return res;
-    }
-};*/
 
 /*Time complexity : O(n! * n)*/
 /*Display : 
