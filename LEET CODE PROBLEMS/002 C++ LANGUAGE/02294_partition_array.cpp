@@ -1,4 +1,4 @@
-// Leetcode : 2294 : Partition Array Such That Maximum Difference Is K
+// Leetcode : 2294 : Partition Array Such That Maximum Difference is K
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -36,6 +36,6 @@ int main() {
     return 0;
 }
 
-/*Output : Number of partitions: 4 */
+/*Output : Number of partitions: 3 */
 /*Time complexity : O(NLogN)
 Space complexity : O(1) */
