@@ -31,7 +31,6 @@ class Solution {
     }
 };
 
-// 🚀 MAIN FUNCTION TO RUN TEST CASES
 int main() {
     Solution sol;
 
@@ -53,10 +52,6 @@ int main() {
 
 
 /*
-#include <iostream>
-#include <vector>
-using namespace std;
-
 class Solution {
   public:
     bool checkSubsequenceSum(int n, vector<int>& arr, int k) {
