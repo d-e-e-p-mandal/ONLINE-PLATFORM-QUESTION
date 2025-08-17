@@ -84,5 +84,5 @@ int main() {
 Original list: 1 -> 9 -> 9
 After adding one: 2 -> 0 -> 0 */
 
-/* Time Complexity : O(2N)
+/* Time Complexity : O(2 * N)
 Space Complexity : O(1)*/
