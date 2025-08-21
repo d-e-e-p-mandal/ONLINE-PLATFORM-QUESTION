@@ -59,6 +59,7 @@ void printList(struct ListNode* head) {
     printf("\n");
 }
 
+
 int main() {
     // Create list: 1 -> 2 -> 3 -> 4 -> 5
     struct ListNode* head = newNode(1);
