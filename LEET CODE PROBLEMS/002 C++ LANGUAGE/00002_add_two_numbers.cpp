@@ -1,5 +1,4 @@
-// LEETCODE : 2 : Add Two Numbers
-
+// LEETCODE : 2 : Add Two Numbers : Linked List
 
 #include <iostream>
 using namespace std;
