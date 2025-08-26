@@ -1,4 +1,4 @@
-// Leetcode : 516 :Longest Palindromic Subsequence : Dynamic Programming : Tabulation
+// Leetcode : 516 : Longest Palindromic Subsequence : Dynamic Programming : Tabulation
 
 #include <bits/stdc++.h>
 using namespace std;
