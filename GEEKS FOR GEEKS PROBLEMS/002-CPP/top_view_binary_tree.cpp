@@ -1,4 +1,4 @@
-// GFG : Top View of Binary Tree : Optimal Solution
+// GFG : Top View of Binary Tree : Optimal Solution : x - ordinate view
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -27,7 +27,7 @@ class Solution {
         vector<int> ans;
         if(root == nullptr) return ans; // if no root exist
         // Storing x coordinate and Node in q
-        queue<pair<int,  Node*>>q;
+        queue<pair<int, Node*>>q;
         // map : x (coordinate-key) and node value 
         map<int,int> mp;
         
@@ -38,7 +38,7 @@ class Solution {
             Node* curr = q.front().second; // node
             q.pop();
             // store if key (x-coordinate) is 1st time
-            if(mp.find(l) == mp.end()) {
+            if(mp.find(l) == mp.end()) {    // 1st seen
                 mp[l] = curr->data;
             }
             // traversal

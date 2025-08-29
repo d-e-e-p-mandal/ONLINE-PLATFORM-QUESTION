@@ -1,4 +1,4 @@
-// GFG : Bottom View of Binary Tree : Optimal Solution
+// GFG : Bottom View of Binary Tree : Optimal Solution : x coordinate 
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -37,7 +37,7 @@ class Solution {
             Node* curr = q.front().second; // Node
             q.pop(); //pop
             // store or update key (x-coordinate) mapped value if same key 
-            mp[l] = curr->data;
+            mp[l] = curr->data; // last seen
              // traversal
             if(curr->left) q.push({l-1, curr->left});
             if(curr->right) q.push({l+1, curr->right});

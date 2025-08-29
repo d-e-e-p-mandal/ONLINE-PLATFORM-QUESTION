@@ -1,6 +1,4 @@
-// L
-
-
+// LeetCode : 987 : Vertical Order Traversal
 import java.util.*;
 
 // Node class for the binary tree
