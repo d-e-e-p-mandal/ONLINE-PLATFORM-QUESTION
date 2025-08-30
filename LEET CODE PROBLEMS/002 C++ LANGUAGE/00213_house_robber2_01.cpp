@@ -17,6 +17,11 @@ public:
     }
 
     int rob(vector<int>& nums) {
+        /*
+            [1,2,3,4,5] : in rounded 1,5 is also adjacent :
+            1. [1,2,3,4]  2. [2,3,4,5]
+            devide into two array and return max of them
+        */
         int n = nums.size();
         if(n == 1) return nums[0];
 

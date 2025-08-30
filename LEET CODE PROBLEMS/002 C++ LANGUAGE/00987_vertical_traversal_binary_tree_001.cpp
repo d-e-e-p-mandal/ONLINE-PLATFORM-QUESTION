@@ -1,4 +1,4 @@
-// LeetCode : 987 : Vertical Order Traversal of a Binary Tree : Optimal Solution : (row,col)
+// LeetCode : 987 : Vertical Order Traversal of a Binary Tree : Optimal Solution : (row,col) graph based
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,10 +19,10 @@ class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
         // queue is used to store level order triversal :
-        // we store the (x,y) coordinate and TreeNode
+        // we store the (r,w) coordinate and TreeNode // row and column : graph based
         queue<pair<pair<int,int>, TreeNode*>> q;
 
-        // map : acessing -x -> +x : 1st int represent x coordinate
+        // map : acessing -c -> +c : 1st int represent column
         // using multiset to store multiple data at same ordinate
         map<int, map<int, multiset<int>>> mp;
         
@@ -31,17 +31,18 @@ public:
         while(!q.empty()) {
             TreeNode* curr = q.front().second;
 
-            int x = q.front().first.first;
-            int y = q.front().first.second;
+            int r = q.front().first.first;
+            int c = q.front().first.second;
             //auto [x, y] = q.front().first; // same as previous 2 line
 
             q.pop();
 
-            // push the node data in map
-            mp[x][y].insert(curr -> val);
+            // push the node data in map 
+            // we take element left to right : so we maped column first : col : left -> right
+            mp[c][r].insert(curr -> val);
             // triverse
-            if(curr->left) q.push({{x-1, y+1}, curr->left});
-            if(curr->right) q.push({{x+1, y+1}, curr->right});
+            if(curr->left) q.push({{r+1, c-1}, curr->left});
+            if(curr->right) q.push({{r+1, c+1}, curr->right});
         }
         // vector to store answer
         vector<vector<int>> ans;
