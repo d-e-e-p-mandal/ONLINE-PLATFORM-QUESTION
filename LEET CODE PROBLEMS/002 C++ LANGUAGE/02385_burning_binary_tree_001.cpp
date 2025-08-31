@@ -37,7 +37,7 @@ public:
     int burningTime(TreeNode* root, int start, int* maxCost) {
         if(root == nullptr) return -1;   // base case: start not found here
 
-        // 🔥 Case 1: Found the start node
+        // Case 1: Found the start node
         if(root->val == start) {
             // When fire starts at this node, the farthest it can spread
             // is the maximum height of its left/right subtree.
@@ -45,7 +45,7 @@ public:
             return 0; // distance from itself = 0
         }
 
-        // 🔥 Case 2: Search in left subtree
+        // Case 2: Search in left subtree
         int leftBurn = burningTime(root->left, start, maxCost);
         if(leftBurn != -1) {  
             // start node found in left subtree
@@ -55,7 +55,7 @@ public:
             return leftBurn + 1;  // distance from root to start = leftBurn+1
         }
 
-        // 🔥 Case 3: Search in right subtree
+        // Case 3: Search in right subtree
         int rightBurn = burningTime(root->right, start, maxCost);
         if(rightBurn != -1) {  
             // start node found in right subtree

@@ -25,7 +25,7 @@ public:
         if(!root) return -1;  
         // base case: null node → not found, return -1
 
-        // 🔥 Case 1: current node is the start node
+        // Case 1: current node is the start node
         if(root->val == start) {
             // Fire starts here → maximum burning time initially is
             // the max depth of either left or right subtree
@@ -33,7 +33,7 @@ public:
             return 0; // distance of start from itself = 0
         }
 
-        // 🔥 Case 2: Search in left subtree
+        // Case 2: Search in left subtree
         int leftDist = dfs(root->left, start);
         if(leftDist != -1) {  
             // Start found in left subtree
@@ -42,7 +42,7 @@ public:
             return leftDist + 1; // return distance from this root to start
         }
 
-        // 🔥 Case 3: Search in right subtree
+        // Case 3: Search in right subtree
         int rightDist = dfs(root->right, start);
         if(rightDist != -1) {
             // Start found in right subtree
