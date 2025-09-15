@@ -7,7 +7,7 @@ class Solution {
     bool isAnyVowel(string& s) {
         int n = s.length();
         for(int i = 0; i < n; i++) {
-            // Check for lowercase vowels
+            // Check any vowels : then Alice Wins
             if(s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u')
                 return true;
         }
