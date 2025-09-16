@@ -33,7 +33,6 @@ public:
     }
 };
 
-// Main function for testing
 int main() {
     Solution sol;
     string text = "hello world code";
