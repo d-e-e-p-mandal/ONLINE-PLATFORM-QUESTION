@@ -15,7 +15,8 @@ int* plusOne(int* digits, int digitsSize, int* returnSize) {
         else
             digits[i]=0;    // for [1,9] condition
     }
-    int *ans=(int *)calloc((digitsSize+1),sizeof(int)); // for [9],[9,9] conditions
+    // for [9],[9,9] conditions, calloc used beacuse it assign with 0
+    int *ans=(int *)calloc((digitsSize+1),sizeof(int)); 
     ans[0]=1;
     *returnSize=digitsSize+1;
     return ans;
