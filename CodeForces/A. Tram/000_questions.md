@@ -1,5 +1,7 @@
 # A. Tram
 
+[Problem Link](https://codeforces.com/problemset/problem/116/A)
+
 **Time Limit:** 2 seconds  
 **Memory Limit:** 256 megabytes  
 

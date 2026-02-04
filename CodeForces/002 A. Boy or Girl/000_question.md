@@ -3,7 +3,7 @@
 **Time Limit:** 1 second  
 **Memory Limit:** 256 megabytes  
 
-**Problem Link:** https://codeforces.com/problemset/problem/236/A  
+[Problem Link](https://codeforces.com/problemset/problem/236/A)
 
 In online forums, it’s often hard to guess a user’s gender just by their avatar. So our hero devised a simple rule based on the **user name**.
 

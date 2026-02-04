@@ -2,6 +2,7 @@
 
 You are given **N** integers. Your task is to find how many of them are divisible by **K**.
 
+[Problem Link](https://www.codechef.com/problems/INTEST)
 ---
 
 ## Input Format
