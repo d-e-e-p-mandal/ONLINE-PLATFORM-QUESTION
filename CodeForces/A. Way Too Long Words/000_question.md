@@ -33,6 +33,7 @@ Each of the following `n` lines contains one word.
 ---
 
 ## Output
+6
 
 Print `n` lines.  
 The `i`-th line should contain the transformed version of the `i`-th word.
